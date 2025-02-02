@@ -96,8 +96,47 @@ a {
 
 /* ------------------------------ */
 /* Work page */
-.grid {
+.gridW {
+    padding: 2px;
+    margin: 2px;
     display: flex;
-    gap: auto;
+    gap: 10px;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    text-align: center;
+}
+
+.gridW img {
+    width: 256px;
+    height: 256px;
+    display: block;
+    margin: 0 auto;
+}
+
+.project p {
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+/* ------------------------------ */
+/* About Us Page */
+.gridP {
+    padding: 2px;
+    margin: 2px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;   
+}
+
+.gridP img {
+    width: 64px;
+    height: 64px;
 }
